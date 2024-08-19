@@ -17,16 +17,10 @@ public class ListaAdministracion {
         tickets.add(ticket);
     }
 
-    public HashSet<Ticket> getTickets() {
-        return tickets;
-    }
-
-    public void setTickets(HashSet<Ticket> tickets) {
-        this.tickets = tickets;
-    }
-
     public ListaAdministracion() {
         tickets = new HashSet<>();
     }
+    
+    
     
 }
