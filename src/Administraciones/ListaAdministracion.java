@@ -23,7 +23,7 @@ public class ListaAdministracion {
     
      public void eliminarTicket(int id){
         Ticket ticket = indice.remove(id);
-        
+            
      }
 
     private static class indice {
