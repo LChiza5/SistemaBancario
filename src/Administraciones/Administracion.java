@@ -35,7 +35,7 @@ public class Administracion {
 
     public Administracion() {
     }
-
+    
     @Override
     public String toString() {
         return "Administracion{" + "numero=" + numero + ", Tipo=" + Tipo + '}';
