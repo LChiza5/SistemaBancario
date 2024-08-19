@@ -21,6 +21,18 @@ public class ListaAdministracion {
         tickets = new HashSet<>();
     }
     
-    
-    
+     public void eliminarTicket(int id){
+        Ticket ticket = indice.remove(id);
+        
+     }
+
+    private static class indice {
+
+        private static Ticket remove(int id) {
+            throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        }
+
+        public indice() {
+        }
+    }
 }
